@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "custom-triton-kernels"
+version = "0.1.0"
+description = "Custom Triton Kernels"
+authors = ["ameen-91 <mohammedameen9011@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.4.1"
+numpy = "^2.1.1"
+matplotlib = "^3.9.2"
+pandas = "^2.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
